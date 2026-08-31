@@ -7,7 +7,6 @@ BASE_DIR = Path(__file__).resolve().parents[2]
 
 
 class Settings(BaseSettings):
-
     app_name: str = "Civil Billing API"
 
     debug: bool = True
